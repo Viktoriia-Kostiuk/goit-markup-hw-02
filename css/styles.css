@@ -9,6 +9,13 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
 /*----------HEADER----------- */
 
 .header {
@@ -25,7 +32,6 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-  text-decoration: none;
 }
 .header-logo > span {
   color: var(--accent-color);
@@ -33,14 +39,12 @@
 
 .nav-list-link {
   color: var(--secondary-color);
-  text-decoration: none;
 }
 
 .header-mail,
 .header-tel {
   font-style: normal;
   color: var(--main-color);
-  text-decoration: none;
 }
 
 .nav-list-link:hover,
@@ -50,10 +54,6 @@
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
-}
-
-.nav-list {
-  list-style: none;
 }
 
 .current {
@@ -76,7 +76,6 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   /*color: var(--other-color);*/
-  text-decoration: none;
 }
 
 .footer-logo > span {
@@ -90,7 +89,6 @@
 .footer-tel {
   font-style: normal;
   /*color: rgba(255, 255, 255, 0.6);*/
-  text-decoration: none;
 }
 /*----------END-FOOTER----------- */
 
@@ -117,11 +115,6 @@
   color: var(--other-color);
 }
 
-.about-list,
-.about-links,
-.command-list {
-  list-style: none;
-}
 .about-subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -184,9 +177,6 @@
 .btn-sorting:hover,
 .btn-sorting:focus {
   color: var(--other-color);
-}
-.projects-list {
-  list-style: none;
 }
 
 .project-name {
