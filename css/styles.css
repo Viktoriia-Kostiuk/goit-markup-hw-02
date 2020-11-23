@@ -4,10 +4,14 @@
   --secondary-color: #212121;
   --other-color: #ffffff;
 }
+
+.body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
 /*----------HEADER----------- */
 
 .header {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -42,6 +46,8 @@
 .nav-list-link:hover,
 .nav-list-link:focus,
 .header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
 }
@@ -58,7 +64,6 @@
 /*----------FOOTER----------- */
 
 .footer {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -89,12 +94,8 @@
 }
 /*----------END-FOOTER----------- */
 
-/*----------BODY Cтудия----------- */
+/*----------MAIN Cтудия----------- */
 
-.main-studio {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -106,6 +107,8 @@
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -163,15 +166,13 @@
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
-/*----------END-BODY Cтудия----------- */
+/*----------END-MAIN Cтудия----------- */
 
-/*----------BODY Портфолио----------- */
+/*----------MAIN Портфолио----------- */
 
-.main-portfolio {
+.btn-sorting {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-}
-.btn-sorting {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -203,4 +204,4 @@
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
-/*----------END-BODY Портфолио----------- */
+/*----------END-MAIN Портфолио----------- */
